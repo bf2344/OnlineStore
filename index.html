@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- START HEADER -->
     <header>
         <div class="custom-nav-container d-flex align-items-center justify-content-between px-2 py-3 shadow-sm">
             <a class="text-clipped navbar-brand" href="#">
@@ -96,14 +97,68 @@
 
                     </div>
                 </div>
-                <div class="nav-icons">
-                        <i class="fas fa-bars open-menu-icon text-clipped"></i>
-                    
+                <div class="nav-icons d-lg-none">
+                    <i class="fas fa-bars open-menu-icon text-clipped"></i>
+
                 </div>
             </div>
         </div>
-    </header>
 
+        <!-- Start Promotions -->
+        <div class="promotions text-white text-center py-2 mb-5">
+            <span>
+                <span class="text-uppercase font-weight-bold">
+                    Free shipping
+                </span> on orders of $100 or more!
+            </span>
+        </div>
+        <!-- End Promotions -->
+
+        <!-- START CAROUSEL -->
+        <div class="container">
+            <div class="carousel slide" id="carousel-indicators" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#carousel-indicators" data-slide-to="0"></li>
+                    <li data-target="#carousel-indicators" data-slide-to="1"></li>
+                    <li data-target="#carousel-indicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#">
+                            <img class="img-fluid d-lg-none" src="images/carousel/carousel-img-1-mobile.jpeg" alt="">
+                            <img class="img-fluid d-none d-lg-block" src="images/carousel/carousel-img-1.jpeg" alt="">
+                        </a>
+                    </div>
+                
+                
+                        <div class="carousel-item">
+                            <a href="#">
+                                <img class="img-fluid d-lg-none" src="images/carousel/carousel-img-2-mobile.jpg" alt="">
+                                <img class="img-fluid d-none d-lg-block" src="images/carousel/carousel-img-2.jpg" alt="">
+                            </a>
+                        </div>
+                    
+                    
+                            <div class="carousel-item">
+                                <a href="#">
+                                    <img class="img-fluid d-lg-none" src="images/carousel/carousel-img-3-mobile.jpeg" alt="">
+                                    <img class="img-fluid d-none d-lg-block" src="images/carousel/carousel-img-3.jpeg" alt="">
+                                </a>
+                            </div>
+            </div>
+                        
+                        <a class="carousel-control-prev" href="#carousel-indicators" role="button" data-slide="prev">
+                            <i class="fas fa-chevron-left text-clipped"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-indicators" role="button" data-slide="next">
+                                <i class="fas fa-chevron-right text-clipped"></i>
+                            </a>
+            </div>
+        </div>
+        <!-- END CAROUSEL -->
+    </header>
+    <!-- END HEADER -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
