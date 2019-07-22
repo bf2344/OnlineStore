@@ -8,6 +8,15 @@ a:hover{
     color: #6c757d;
 }
 
+img{
+    width: 100%;
+    max-width: 100%
+}
+
+section{
+    padding: 50px 0;
+}
+
 ul{
     list-style: none;
     margin: 0;
@@ -186,3 +195,26 @@ ul{
 
 }
 /* END HEADER */
+
+/* START BRANDS */
+.featured-brands img{
+    max-width: 100px;
+    max-height: 100px;
+    opacity: .7;
+    transition: opacity 650ms;
+}
+
+.featured-brands img:hover{
+    opacity: 1;
+}
+/* END BRANDS */
+
+/* WOMENS COLLECTION */
+.hero-img{
+    padding: 15px;
+    margin: auto;
+}
+
+
+
+/* END WOMENS COLLECTION */
